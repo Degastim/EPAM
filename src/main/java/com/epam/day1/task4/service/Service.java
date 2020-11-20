@@ -8,13 +8,7 @@ public class Service
         {
             if (j%2==0) numberOfEven--;
         }
-        if(numberOfEven<=0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        boolean result=numberOfEven <= 0;
+        return result;
     }
 }

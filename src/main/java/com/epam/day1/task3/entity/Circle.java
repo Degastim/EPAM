@@ -8,12 +8,20 @@ public class Circle
         return radius;
     }
 
-    public void setRadius(double radius) {
+    public void setRadius(double radius){
         this.radius = radius;
     }
 
-    public Circle(double radius) {
+    public Circle(double radius){
         this.radius = radius;
     }
-    public Circle() { }
+    public Circle(){ }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Circle{");
+        sb.append("radius=").append(radius);
+        sb.append('}');
+        return sb.toString();
+    }
 }

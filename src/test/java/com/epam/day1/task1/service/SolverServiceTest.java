@@ -1,18 +1,14 @@
 package com.epam.day1.task1.service;
 
-
 import com.epam.day1.task1.report.SolverReport;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
 public class SolverServiceTest
 {
     SolverReport solverReport=new SolverReport();
-
     @Test
-    public void testSolver()
-    {
+    public void testSolver() {
         int expected1=6;
         int expected2=5;
         int actual1=new SolverService().solver(14);

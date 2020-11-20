@@ -1,15 +1,13 @@
 package com.epam.day1.task6.main;
 
 import com.epam.day1.task6.report.TimeReport;
-import com.epam.day1.task6.service.GetTime;
+import com.epam.day1.task6.service.TimeService;
 
-public class ProjectMain
-{
-    public static void main(String[] args)
-    {
+public class ProjectMain {
+    public static void main(String[] args) {
         int second=6000;
-        GetTime getTime=new GetTime();
+        TimeService timeService =new TimeService();
         TimeReport timeReport=new TimeReport();
-        timeReport.OutputHourMinuteSecond(getTime.getHour(second),getTime.getMinute(second),getTime.getSecond(second));
+        timeReport.OutputHourMinuteSecond(timeService.getHour(second), timeService.getMinute(second), timeService.getSecond(second));
     }
 }

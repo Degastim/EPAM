@@ -1,7 +1,6 @@
 package com.epam.day1.task6.service;
 
-public class GetTime
-{
+public class TimeService {
     public int getHour(int second)
     {
         return second/3600;

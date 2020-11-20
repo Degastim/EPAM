@@ -4,8 +4,6 @@ import com.epam.day1.task3.entity.Circle;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
-
 public class CircleServiceTest
 {
 
@@ -16,7 +14,7 @@ public class CircleServiceTest
         Circle circle=new Circle();
         CircleService circleService=new CircleService();
         circle.setRadius(10);
-        double actual=circleService.FindAreaOfSquareInscribedInCircle(circle);
+        double actual=circleService.findAreaOfSquareInscribedInCircle(circle);
         Assert.assertEquals(actual,expected);
     }
 }

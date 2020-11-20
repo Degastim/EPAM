@@ -12,16 +12,18 @@ public class Square
         this.area = sideLength;
     }
 
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder(" Area {");
-        sb.append("Area=").append(area);
-        sb.append('}');
-        return sb.toString();
-    }
-
     public Square(double sideLength) {
         this.area = sideLength;
     }
-    public Square() { }
+
+    public Square() {
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Square{");
+        sb.append("area=").append(area);
+        sb.append('}');
+        return sb.toString();
+    }
 }

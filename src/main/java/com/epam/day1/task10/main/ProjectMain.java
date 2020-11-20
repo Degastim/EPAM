@@ -2,13 +2,10 @@ package com.epam.day1.task10.main;
 
 import com.epam.day1.task10.report.FunctionReport;
 import com.epam.day1.task10.service.Function;
-
 import java.util.HashMap;
 
-public class ProjectMain
-{
-    public static void main(String[] args)
-    {
+public class ProjectMain {
+    public static void main(String[] args) {
         FunctionReport functionReport=new FunctionReport();
         Function function=new Function();
         HashMap<Double,Double> hashMap=function.solution(1,10,2);

@@ -1,7 +1,6 @@
 package com.epam.day1.task2.entity;
 
-public class CustomDate
-{
+public class CustomDate {
     int monthNumber;
     int yearNumber;
 
@@ -19,5 +18,14 @@ public class CustomDate
 
     public void setYearNumber(int yearNumber) {
         this.yearNumber = yearNumber;
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("CustomDate{");
+        sb.append("monthNumber=").append(monthNumber);
+        sb.append(", yearNumber=").append(yearNumber);
+        sb.append('}');
+        return sb.toString();
     }
 }

@@ -4,12 +4,10 @@ import com.epam.day1.task3.entity.Square;
 
 public class SquareReport
 {
-    public void InscribedSquare(Square square)
-    {
+    public void InscribedSquareReport(Square square) {
         System.out.println("The area of the inscribed square is"+square);
     }
-    public void compare(Square describedSquare,Square inscribedSquare)
-    {
-        System.out.println("The area of the inscribed square is "+describedSquare.getArea()/inscribedSquare.getArea()+" times less than the specified area");
+    public void compareReport(Double solution) {
+        System.out.println("The area of the inscribed square is "+solution+" times less than the specified area");
     }
 }

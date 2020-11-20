@@ -2,24 +2,17 @@ package com.epam.day1.task2.service;
 
 import com.epam.day1.task2.entity.CustomDate;
 
-public class CustomDateService
-{
-    public int findAmountOfDays(CustomDate customDate)
-    {
-       if(customDate.getMonthNumber()==2)
-       {
-           if(determinationOfLeapYear(customDate))
-           {
+public class CustomDateService {
+    public int findAmountOfDays(CustomDate customDate) {
+       if(customDate.getMonthNumber()==2) {
+           if(determinationOfLeapYear(customDate)) {
                return 29;
            }
-           else
-           {
+           else {
                return 28;
            }
        }
-
-        switch (customDate.getMonthNumber())
-        {
+        switch (customDate.getMonthNumber()) {
             case (1):
             case (3):
             case (5):
@@ -32,15 +25,7 @@ public class CustomDateService
                 return 30;
         }
     }
-    public boolean determinationOfLeapYear(CustomDate customDate)
-    {
-        if(customDate.getYearNumber()%400==0 || customDate.getYearNumber()%4==0 && customDate.getYearNumber()%100==0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+    public boolean determinationOfLeapYear(CustomDate customDate) {
+        return customDate.getYearNumber()%400==0 || customDate.getYearNumber()%4==0 && customDate.getYearNumber()%100==0;
     }
 }

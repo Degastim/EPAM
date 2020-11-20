@@ -1,7 +1,6 @@
 package com.epam.day3.task1.entity;
 
-public class Ball
-{
+public class Ball {
     private double weight;
     private String colour;
 
@@ -27,5 +26,14 @@ public class Ball
     }
 
     public Ball() {
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Ball{");
+        sb.append("weight=").append(weight);
+        sb.append(", colour='").append(colour).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }
