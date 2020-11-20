@@ -1,4 +1,4 @@
-package com.epam.day3.task1.entity;
+package com.epam.day3.entity;
 
 public class Ball {
     private double weight;

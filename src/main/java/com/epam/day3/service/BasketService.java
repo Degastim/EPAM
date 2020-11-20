@@ -1,7 +1,7 @@
-package com.epam.day3.task1.service;
+package com.epam.day3.service;
 
-import com.epam.day3.task1.entity.Ball;
-import com.epam.day3.task1.entity.Basket;
+import com.epam.day3.entity.Ball;
+import com.epam.day3.entity.Basket;
 import java.util.List;
 
 public class BasketService {

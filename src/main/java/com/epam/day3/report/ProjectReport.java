@@ -1,4 +1,4 @@
-package com.epam.day3.task1.report;
+package com.epam.day3.report;
 
 public class ProjectReport {
     public void PrintBallWeigh (double weight) {

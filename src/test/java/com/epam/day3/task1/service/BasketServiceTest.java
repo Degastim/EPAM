@@ -1,7 +1,8 @@
 package com.epam.day3.task1.service;
 
-import com.epam.day3.task1.entity.Ball;
-import com.epam.day3.task1.entity.Basket;
+import com.epam.day3.service.BasketService;
+import com.epam.day3.entity.Ball;
+import com.epam.day3.entity.Basket;
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
