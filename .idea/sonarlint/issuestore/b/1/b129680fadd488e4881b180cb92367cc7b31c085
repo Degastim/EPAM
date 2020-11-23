@@ -1,6 +1,6 @@
 
 …
-java:S1319"oThe type of the "hashMap" object should be an interface such as "Map" rather than the implementation "HashMap".(Á”ÑŠ
-J
-java:S2864	"4Iterate over the "entrySet" instead of the "keySet".(½«Æ¼
-S	java:S106"9Replace this use of System.out or System.err by a logger.(•ðÁçøÿÿÿÿ
+java:S1319"oThe type of the "hashMap" object should be an interface such as "Map" rather than the implementation "HashMap".(€Â·Á
+O
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(„‹Í­ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(•ðÁçøÿÿÿÿ
