@@ -1,8 +1,10 @@
 package com.epam.day4.task2.report;
 
-import com.epam.day4.task1.model.Array;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class ProjectReport {
+    Logger Logger= LogManager.getLogger();
     public void ReportArray(int[][] array) {
         for(int[] i:array) {
             for(int j:i)
@@ -11,5 +13,6 @@ public class ProjectReport {
             }
             System.out.println();
         }
+        Logger.info("Report from array");
     }
 }
