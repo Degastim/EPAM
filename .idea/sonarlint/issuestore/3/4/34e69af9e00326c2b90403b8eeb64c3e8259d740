@@ -1,0 +1,9 @@
+
+€
+java:S4165"cRemove this useless assignment; "array" already holds the assigned value along all execution paths.(¨…Õ¯8Ñ¶†„à.
+U
+java:S11170"8Rename "array" which hides the field declared at line 9.(¡®Ã8é˜˜‰ß.
+O
+java:S14815"-Remove this unused "solution" local variable.(µãÒşÿÿÿÿ8é˜˜‰ß.
+J
+java:S1172"-Remove this unused method parameter "reader".(ºıŒÀ8Éƒ‡„à.
