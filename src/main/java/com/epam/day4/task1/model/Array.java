@@ -2,15 +2,15 @@ package com.epam.day4.task1.model;
 
 import java.util.Arrays;
 
-public class ArrayWrapper
+public class Array
 {
     private int[] array;
 
-    public ArrayWrapper(int[] array) {
+    public Array(int[] array) {
         this.array = array;
     }
 
-    public ArrayWrapper() {
+    public Array() {
         this.array =new int[0];
     }
 
@@ -38,16 +38,14 @@ public class ArrayWrapper
         if (o==null || getClass() !=o.getClass()) {
             return false;
         }
-        ArrayWrapper arrayObject = (ArrayWrapper) o;
-        int [] array=arrayObject.array;
-        int [] thisArray=this.array;
+        Array arrayObject = (Array) o;
+        int[] array=arrayObject.array;
+        int[] thisArray=this.array;
         if(array.length!=thisArray.length) {
             return false;
         }
-        boolean solution;
-        for(int i=0;i<array.length;i++)
-        {
-            if(array[i]!=thisArray[2]) {
+        for (int i : array) {
+            if (i != thisArray[2]) {
                 return false;
             }
         }

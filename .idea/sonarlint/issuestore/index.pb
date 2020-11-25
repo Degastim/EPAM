@@ -108,10 +108,12 @@ f
 i
 9src/main/java/com/epam/day4/task1/model/ArrayWrapper.java,3\4\34e69af9e00326c2b90403b8eeb64c3e8259d740
 h
-8src/main/java/com/epam/day4/task1/service/Aggregate.java,5\c\5c859087e1248c67a5a95e1e64a4e9a732daa9ca
-h
 8src/main/java/com/epam/day4/task1/service/Fibonacci.java,3\7\378530afc5f756b81eaad569d14014bd9736a7bd
 `
 0src/main/java/com/epam/day4/task1/main/Main.java,1\6\1671fb2dcb4fa18162431762f9addc3bf16e1b5f
 k
 ;src/main/java/com/epam/day4/task1/service/PrimeNumbers.java,6\7\674ab73cfeb07e421c75239111b58ab72b7649d6
+k
+;src/main/java/com/epam/day4/task1/service/SearchEngine.java,f\c\fc8ad96ebcad4a4f7a9a66c09489f0de5503a1c5
+e
+5src/main/java/com/epam/day4/task1/service/Reader.java,7\0\70a2e84fcca86c9837385dacfea64021ec5aba97

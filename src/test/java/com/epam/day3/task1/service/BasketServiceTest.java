@@ -7,7 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-
 public class BasketServiceTest
 {
     Basket basket;
@@ -15,8 +14,7 @@ public class BasketServiceTest
     Ball ball1;
     Ball ball2;
     @BeforeSuite
-    public void setup()
-    {
+    public void setup() {
         basket=new Basket();
         basketService=new BasketService();
         ball1=new Ball(1,"Blue");
@@ -26,16 +24,14 @@ public class BasketServiceTest
     }
 
     @Test
-    public void testCountingWeightBalls()
-    {
-        double actual=4;
-        double expected=basketService.CountingWeightBalls(basket);
+    public void testCountingWeightBalls() {
+        double actual=basketService.CountingWeightBalls(basket);
+        double expected=4;
         Assert.assertEquals(actual,expected);
     }
 
     @Test
-    public void testSearchBallsCertainColor()
-    {
+    public void testSearchBallsCertainColor() {
         int expected=2;
         int actual=basketService.SearchBallsCertainColor(basket,"Blue");
         Assert.assertEquals(actual,expected);

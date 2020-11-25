@@ -1,36 +1,33 @@
 package com.epam.day4.task1.service;
 
-import com.epam.day4.task1.model.ArrayWrapper;
+import com.epam.day4.task1.model.Array;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 
-
 public class PrimeNumbers {
-    public int[] findPrimeNumbers(ArrayWrapper arrayWrapper)
-    {
+    private Logger Logger=LogManager.getLogger();
+
+    public int[] findPrimeNumbers(Array arrayWrapper) {
         int counter=0;
         int[] resultArray=new int[0];
         int[] array=arrayWrapper.getArray();
-        int arrayLength=array.length;
         boolean NotPrimeNumber=true;
-        for (int i=0;i<arrayLength;i++) {
-            for(int j=2;j<=array[i]/2;j++)
-            {
-                if(array[i]%j==0 || array[i]==1)
-                {
+        for (int i:array) {
+            for(int j=2;j<=i/2;j++) {
+                if(i%j==0) {
                     NotPrimeNumber=false;
                 }
             }
-            System.out.println(NotPrimeNumber);
-            if(NotPrimeNumber)
-           {
-               resultArray= Arrays.copyOf(resultArray,resultArray.length+1);
-               resultArray[counter]=array[i];
-               counter++;
-           }
+            if(NotPrimeNumber) {
+                resultArray= Arrays.copyOf(resultArray,resultArray.length+1);
+                resultArray[counter]=i;
+                counter++;
+            }
             NotPrimeNumber=true;
         }
+        Logger.info("Found prime numbers in array");
         return resultArray;
-        String
     }
 }

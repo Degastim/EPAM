@@ -1,0 +1,41 @@
+25-11-2020 22:13:04  INFO task1.service.Sorting selectionSort -Selection Sort performed
+25-11-2020 22:18:11  INFO task1.service.Sorting selectionSort -Selection Sort performed
+25-11-2020 23:28:55  INFO task1.service.Fibonacci findingFibonacciNumbers -Found fibonacci numbers in array
+25-11-2020 23:39:25  INFO task1.service.PrimeNumbers findPrimeNumbers -Found prime numbers in array
+25-11-2020 23:39:37  INFO task1.service.PrimeNumbers findPrimeNumbers -Found prime numbers in array
+25-11-2020 23:39:46  INFO task1.service.PrimeNumbers findPrimeNumbers -Found prime numbers in array
+25-11-2020 23:43:59  INFO task1.service.Reader fillFromFile -Array filled from file
+25-11-2020 23:48:59  INFO task1.service.SearchEngine binarySearch -Performed binary search for number7
+25-11-2020 23:48:59  INFO task1.service.SearchEngine searchMaxNumber -Found max number in array
+25-11-2020 23:48:59  INFO task1.service.SearchEngine searchMinNumber -Found min number in array
+25-11-2020 23:48:59  INFO task1.service.SearchEngine searchThreeDigitNumbersWithoutRepetitions -Found all three-digit numbers that do not have the same decimal notation
+25-11-2020 23:49:21  INFO task1.service.SearchEngine searchMinNumber -Found min number in array
+25-11-2020 23:49:26  INFO task1.service.SearchEngine searchThreeDigitNumbersWithoutRepetitions -Found all three-digit numbers that do not have the same decimal notation
+25-11-2020 23:49:34  INFO task1.service.SearchEngine binarySearch -Performed binary search for number7
+25-11-2020 23:49:34  INFO task1.service.SearchEngine searchMaxNumber -Found max number in array
+25-11-2020 23:49:34  INFO task1.service.SearchEngine searchMinNumber -Found min number in array
+25-11-2020 23:49:34  INFO task1.service.SearchEngine searchThreeDigitNumbersWithoutRepetitions -Found all three-digit numbers that do not have the same decimal notation
+25-11-2020 23:58:24  INFO task1.service.Sorting bubbleSort -Bubble sort performed
+25-11-2020 23:58:27  INFO task1.service.Sorting bubbleSort -Bubble sort performed
+25-11-2020 23:58:27  INFO task1.service.Sorting insertionSort -Insertion Sort performed
+25-11-2020 23:58:27  INFO task1.service.Sorting selectionSort -Selection Sort performed
+25-11-2020 23:58:54  INFO task1.service.Sorting bubbleSort -Bubble sort performed
+25-11-2020 23:59:48  INFO task1.service.Sorting bubbleSort -Bubble sort performed
+26-11-2020 00:07:23  INFO task1.service.Fibonacci findingFibonacciNumbers -Found fibonacci numbers in array
+26-11-2020 00:07:33  INFO task1.service.PrimeNumbers findPrimeNumbers -Found prime numbers in array
+26-11-2020 00:07:41  INFO task1.service.Reader fillFromFile -Array filled from file
+26-11-2020 00:07:47  INFO task1.service.SearchEngine binarySearch -Performed binary search for number7
+26-11-2020 00:07:47  INFO task1.service.SearchEngine searchMaxNumber -Found max number in array
+26-11-2020 00:07:47  INFO task1.service.SearchEngine searchMinNumber -Found min number in array
+26-11-2020 00:07:47  INFO task1.service.SearchEngine searchThreeDigitNumbersWithoutRepetitions -Found all three-digit numbers that do not have the same decimal notation
+26-11-2020 00:07:54  INFO task1.service.Sorting bubbleSort -Bubble sort performed
+26-11-2020 00:07:54  INFO task1.service.Sorting insertionSort -Insertion Sort performed
+26-11-2020 00:07:54  INFO task1.service.Sorting selectionSort -Selection Sort performed
+26-11-2020 00:10:28  INFO task1.service.Sorter bubbleSort -Bubble sort performed
+26-11-2020 00:10:28  INFO task1.service.Sorter insertionSort -Insertion Sort performed
+26-11-2020 00:10:28  INFO task1.service.Sorter selectionSort -Selection Sort performed
+26-11-2020 00:19:06  INFO task1.service.Sorter insertionSort -Insertion Sort performed
+26-11-2020 00:19:06  INFO task1.service.Sorter selectionSort -Selection Sort performed
+26-11-2020 00:19:39  INFO task1.service.Sorter bubbleSort -Bubble sort performed
+26-11-2020 00:19:39  INFO task1.service.Sorter insertionSort -Insertion Sort performed
+26-11-2020 00:19:39  INFO task1.service.Sorter selectionSort -Selection Sort performed
